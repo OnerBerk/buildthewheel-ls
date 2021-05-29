@@ -20,11 +20,9 @@ public class Main {
 
         switch (command) {
             case "ls":
-                for (String pathname : pathnames) {
-                    System.out.println(pathname);
-                }
+                for (String pathname : pathnames) { System.out.println(pathname); }
                 break;
-            case "a":
+            case "-a":
                 System.out.println("commande a");
                 break;
             case "l":
